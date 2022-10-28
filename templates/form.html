@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Form</title>
+</head>
+<body>
+  <h2>Contoh Form</h2>
+  <form action="/" method="post">
+    Nama: <br />
+    <input type="text" name="nama" size="25" /><br />
+    Umur: <br />
+    <input type="text" name="umur" size="25" /><br />
+    Password: <br />
+    <input type="password" name="password" size="25" /><br />
+    Jenis Kelamin: <br />
+    <input type="radio" name="jeniskelamin" value="P" checked />Pria
+    <input type="radio" name="jeniskelamin" value="W" checked />Wanita <br />
+    Alamat: <br />
+    <textarea name="alamat" cols="40" rows="4"></textarea><br />
+    Hobi: <br />
+    <input type="checkbox" name="hobbies" value="Musik" />Musik
+    <input type="checkbox" name="hobbies" value="Membaca" />Membaca
+    <input type="checkbox" name="hobbies" value="Melupakan" />Melupakan
+    <br />
+    Agama:
+    <select name="agama" size="1">
+      <option value="Islam">Islam</option>
+      <option value="Protestan">Protestan</option>
+      <option value="Katolik">Katolik</option>
+      <option value="Hindu">Hindu</option>
+      <option value="Budha">Budha</option>
+    </select>
+    <input type="hidden" name="kode" value="212" /><br />
+    <p><input type="submit" value="Kirim" /></p>
+  </form>
+</body>
+</html>
